@@ -14,3 +14,8 @@ void task_two() {
     cout << a[0] * a[1] * a[2] << endl;
 }
 
+
+
+int main {
+
+};
