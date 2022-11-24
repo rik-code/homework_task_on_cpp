@@ -4,16 +4,13 @@
 using namespace std;
 
 void n_1 () {
-    int n, i = 1, i1;
+    int n, i = 1;
     cin >> n;
-    while (i <= n) {
-        i1 = sqrt(i);
-        if (i % i1 == 0) {
-            cout << i << " ";
+    while (i*i <= n) {
+        cout << i << " ";
         }
         i++;
     }
-}
 
 void n_2 () {
     int i = 2, n;
