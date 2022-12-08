@@ -10,6 +10,7 @@ struct Advertising {
 
 void number_1 () {
     string pon;
+    getline(cin, pon);
     int prep = 0;
 
     cin >> pon;
