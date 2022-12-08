@@ -30,3 +30,24 @@ void task_1() {
 
     cout << "sum: " << sum1 << endl;
 }
+
+void task_2() {
+    const int s = 20;
+    int a[s];
+
+    srand(time(NULL));
+    for (int i = 0; i < s; i++) {
+        a[i] = randint(-20, 20);
+        cout << a[i] << ", ";
+    }
+    cout << endl;
+
+    int sum = 0;
+    for (int i=0; i < s; i++) {
+        if (a[i] > 0) {
+            sum += a[i];
+        }
+    }
+
+
+}
