@@ -3,9 +3,9 @@
 using namespace std;
 
 struct Advertising {
-    int time;
-    int per;
-    double money;
+    int time = 0;
+    int per = 0;
+    double money = 0;
 };
 
 void number_1 () {
